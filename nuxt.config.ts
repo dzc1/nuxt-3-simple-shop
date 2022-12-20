@@ -3,8 +3,14 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
-      title: "Nuxt Dojo",
-      meta: [{ name: "description", content: "Everything about Nuxt 3" }],
+      title: "NUXT3 Diego Zito - Ecommerce",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Ecommerce webshop using NUXT3, tailwindCSS to learn about NUXT3. Built with ❤️ by Diego Zito",
+        },
+      ],
       link: [
         {
           rel: "stylesheet",
